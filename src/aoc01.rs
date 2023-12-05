@@ -75,7 +75,6 @@ fn sum_with_text_numbers(line: &str) -> i32 {
 
     // sort the indices
     indices.sort_by(|a, b| a.0.cmp(&b.0));
-    print!("Indices: {:?} ", indices);
 
     // return first and last value
     let mut result = String::new();
